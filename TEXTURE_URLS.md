@@ -1,0 +1,113 @@
+# Chair Configurator - Texture URLs Reference
+
+## Texture Download URLs
+
+These are all the texture URLs extracted from the HAR file for use in the Chair Configurator.
+
+### How to Download
+
+Option 1: Use the batch script
+```powershell
+# From the project root, run:
+powershell -ExecutionPolicy Bypass -File download-textures.ps1
+```
+
+Option 2: Download manually via curl
+```bash
+cd public/assets/textures
+
+# Download a single texture
+curl -o texture_001.png "https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30088/50/eyJpdiI6IjZpT0dZVk9Bd2o0eVFFcTVEYUJCY2c9PSIsInZhbHVlIjoiNnJPd1E1cW15MERidi9hdit0WVFCUT09IiwibWFjIjoiMGU4YmMyMTVkNzQzZGMyMjNkYmFiZjM2OWZjZDQ0MmQ5OTAyZDAyM2UxYzgyODJhZTk2NWYxMjYyODkzOGJkMSIsInRhZyI6IiJ9.png"
+```
+
+---
+
+## All Texture URLs
+
+### 30088 Textures (4 variants)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30088/50/eyJpdiI6IjZpT0dZVk9Bd2o0eVFFcTVEYUJCY2c9PSIsInZhbHVlIjoiNnJPd1E1cW15MERidi9hdit0WVFCUT09IiwibWFjIjoiMGU4YmMyMTVkNzQzZGMyMjNkYmFiZjM2OWZjZDQ0MmQ5OTAyZDAyM2UxYzgyODJhZTk2NWYxMjYyODkzOGJkMSIsInRhZyI6IiJ9.png
+
+### 30089 Textures (2 variants)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30089/50/eyJpdiI6IkcwTnRkbmhUeHVyQlNxY0EybmYyWlE9PSIsInZhbHVlIjoiYTF2Z1ExQWtraVJ5S2t1OFB1clhNQT09IiwibWFjIjoiM2E5YTliZTMzZDRlYmUzODg5YjIwNDkxZmM2NTY0ODViNDEwOTY1NTgyY2QyZTFiMDFiMDA0YjYxM2IzNmRjNSIsInRhZyI6IiJ9.png
+- original: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30089/original/eyJpdiI6IkcwTnRkbmhUeHVyQlNxY0EybmYyWlE9PSIsInZhbHVlIjoiYTF2Z1ExQWtraVJ5S2t1OFB1clhNQT09IiwibWFjIjoiM2E5YTliZTMzZDRlYmUzODg5YjIwNDkxZmM2NTY0ODViNDEwOTY1NTgyY2QyZTFiMDFiMDA0YjYxM2IzNmRjNSIsInRhZyI6IiJ9.png
+
+### 30087 Textures (2 variants)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30087/50/eyJpdiI6IkhEOEV0ajZib05sa0o1VDFUSkRWbkE9PSIsInZhbHVlIjoiRHp0ZTJyZngvbFhDTjJ3TjQwdUtBUT09IiwibWFjIjoiZGRmYjQ1YWEyZjczNjdkNTk4NDc3MzM1ZTBkNjA5NzUxZWJiYzVhNWMxYTdhNWVhZWQ0NzA2ZjdlODRlYzExNiIsInRhZyI6IiJ9.png
+- original: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30087/original/eyJpdiI6IkhEOEV0ajZib05sa0o1VDFUSkRWbkE9PSIsInZhbHVlIjoiRHp0ZTJyZngvbFhDTjJ3TjQwdUtBUT09IiwibWFjIjoiZGRmYjQ1YWEyZjczNjdkNTk4NDc3MzM1ZTBkNjA5NzUxZWJiYzVhNWMxYTdhNWVhZWQ0NzA2ZjdlODRlYzExNiIsInRhZyI6IiJ9.png
+
+### 30086 Textures (2 variants)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30086/50/eyJpdiI6IlhKM3J4Zkg0d1dRVkVCdzJKRkpib3c9PSIsInZhbHVlIjoid0JKWlNoMndMRndsZ0R6TnN1V1FUdz09IiwibWFjIjoiNDVmOGVhNGI1OWZiYjRhN2QxZTBlZmZhYzhjMDcxZTgxODg4MWNlNDg0Nzk1Mjk1ODk0YjVkNzc2OTNmNWQxOSIsInRhZyI6IiJ9.png
+- original: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30086/original/eyJpdiI6IlhKM3J4Zkg0d1dRVkVCdzJKRkpib3c9PSIsInZhbHVlIjoid0JKWlNoMndMRndsZ0R6TnN1V1FUdz09IiwibWFjIjoiNDVmOGVhNGI1OWZiYjRhN2QxZTBlZmZhYzhjMDcxZTgxODg4MWNlNDg0Nzk1Mjk1ODk0YjVkNzY2OTNmNWQxOSIsInRhZyI6IiJ9.png
+
+### 30084 Textures (2 variants)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30084/50/eyJpdiI6ImZad1huVmZsTjROUFliTVB3b3dLbnc9PSIsInZhbHVlIjoicFN3bG9iYnRKYjV5V2RMNEI0S1FBUT09IiwibWFjIjoiNTBjMmQxNTcwYWIwYjEzNzU5NzdhMjhlOWM3YzI4NWQ5YTkyMThhMzQ2NTdkZmNhNGM5ZDAwMDhkMzhhZGM5NSIsInRhZyI6IiJ9.png
+- original: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30084/original/eyJpdiI6ImZad1huVmZsTjROUFliTVB3b3dLbnc9PSIsInZhbHVlIjoicFN3bG9iYnRKYjV5V2RMNEI0S1FBUT09IiwibWFjIjoiNTBjMmQxNTcwYWIwYjEzNzU5NzdhMjhlOWM3YzI4NWQ5YTkyMThhMzQ2NTdkZmNhNGM5ZDAwMDhkMzhhZGM5NSIsInRhZyI6IiJ9.png
+
+### 30085 Textures (2 variants)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30085/50/eyJpdiI6IjdvM2M2T2JzS2ZYck5JSVVGWUQ1d1E9PSIsInZhbHVlIjoidmN4L215MjduMU0xY1JhbDNPa3pxZz09IiwibWFjIjoiYmM4YTUxNzhlMTZmNTczOTEyYWUwMTc4ODcxZGUwN2I0NDJhMDk4ZDA2NTJlMWQxMzg4NDc1MGFhMDZhNTU1YiIsInRhZyI6IiJ9.png
+- original: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30085/original/eyJpdiI6IjdvM2M2T2JzS2ZYck5JSVVGWUQ1d1E9PSIsInZhbHVlIjoidmN4L215MjduMU0xY1JhbDNPa3pxZz09IiwibWFjIjoiYmM4YTUxNzhlMTZmNTczOTEyYWUwMTc4ODcxZGUwN2I0NDJhMDk4ZDA2NTJlMWQxMzg4NDc1MGFhMDZhNTU1YiIsInRhZyI6IiJ9.png
+
+### 30080 Textures (2 variants - JPG + PNG)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30080/50/eyJpdiI6IkxRMFp2bnJUTm9URmxkMzFLQitUNVE9PSIsInZhbHVlIjoiSENxVUNzSXJEckpxYzdwTUx6Y0JXUT09IiwibWFjIjoiYzlhMjNiNzcwNjdmMzMwMGM4MDdhM2RjNTRkZDkwODFjYmU5NTIzYjRjN2E0MDRkYWU1NWYxMDJkMmUyNzE1NiIsInRhZyI6IiJ9.png
+- original: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30080/original/eyJpdiI6ImZpejRKQVJ6L2ZnUEdjc0tkZlVTaXc9PSIsInZhbHVlIjoiSFNEUjNMR2pvL2p3RXZod3BBdEFzZz09IiwibWFjIjoiN2UwZjQzNTQzNDIwMjM3Y2FkOGZjZjRjYzI0MTljMjVlOWU5MWUzZTY0MjA1N2ZlN2YwNjlmNWNkYmE2ODI3ZSIsInRhZyI6IiJ9.jpg
+
+### 30079 Textures (4 variants - PNG + JPG)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30079/50/eyJpdiI6Ikx0ei90dzZSVWdkS0xJV2ZRc2JGZ0E9PSIsInZhbHVlIjoicVZ3R3o4UmZmT2dNc2p3Z28zN2ladz09IiwibWFjIjoiNjlhMThlZGI3OGQ3YjQyYWFjNzliNjRmODNjMjI3MjNjOWM0MTM2NjJiYTg5Y2UwYjY5OTZjZDljYzM3NWVkZCIsInRhZyI6IiJ9.png
+
+### 30078 Textures (4 variants - PNG + JPG)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30078/50/eyJpdiI6Ino4bkI1aDlQRkZVbmZ6R2VZVkd1NWc9PSIsInZhbHVlIjoiRHZzSzhxcUdXd2pDY2lQM2VnWjZQQT09IiwibWFjIjoiMTg4NzVkN2ZkODA3NDBkOWJiYmRhNjM1NDE0NWRhZDYzNzZhMzhkZTFmNWYxN2VkMTc3NjI2ZTdmMTIyYTM1NiIsInRhZyI6IiJ9.png
+
+### 30077 Textures (4 variants - PNG + JPG)
+- 50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30077/50/eyJpdiI6IjQrNlZnNVBpd2JHRURrVFR3R2c4N1E9PSIsInZhbHVlIjoiRVhtMDlIOWQ5OEVqL3RrQmMzOVZXQT09IiwibWFjIjoiOWNlYjIwNTIyNTE1YWMzYzg1N2EzYzlkM2U5NzQ2ZWQzZGRhNTMyN2I4MjdkODdhYmU3ZjExNWU5ZDVjMGM4NSIsInRhZyI6IiJ9.png
+
+### 30075-30076 Textures (multiple variants)
+- 30075-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30075/50/eyJpdiI6Ik4wekMwcmxwYVluSEgxbWFsYXhPd3c9PSIsInZhbHVlIjoiVGFCNW1wVDFDRDlpUFJqRTR4aVJhUT09IiwibWFjIjoiYTdjMjM3YjE2MTYxZjk0NTliYTVhNTQwYjNlMjM2MDY2M2U2MDc2YmQxN2FjYTdmZDBlOWM4NDY2ZjE5ODU4NyIsInRhZyI6IiJ9.png
+- 30076-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30076/50/eyJpdiI6ImFSbDJKR3dkR3doeUhIZ2dxWVNuNlE9PSIsInZhbHVlIjoiKzJsOXlla25BOXpoQ0NyVFVmZ0hxQT09IiwibWFjIjoiNmM2ZWM0OWMzZjJmZDIxMjM5YzExNjA3YzVjZWY2NWIwMmI1MGRlNzRmNDg3MGZkMmRhOWMxNzRjOGJkOTdiYSIsInRhZyI6IiJ9.png
+
+### 30072-30074 Textures (multiple variants)
+- 30072-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30072/50/eyJpdiI6IjhJWjFydEFUQ3dNWklOUjRCRGlPTHc9PSIsInZhbHVlIjoiRWhSS05KYWNKMEEyazlWNFhZOVhJdz09IiwibWFjIjoiNjBkNjIwNTdlOWFiMmJjZGE3MjcyOWJmOTY0YzFkNDUxNTE5NTk1NTEwMzkyZjg2Y2U5YTU1NmE4MzA3MmE2YyIsInRhZyI6IiJ9.png
+- 30073-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30073/50/eyJpdiI6IkNmWmh1emNiRGE0WC9RNmpDK3RlSmc9PSIsInZhbHVlIjoiblhDQlArSS9XQ01TUTNVd2xtOHp6Zz09IiwibWFjIjoiNjhiMWYzNjU2ZjBiMjgwNWIxNmU3Y2JiMjBlOGUzZDNhZTg0MzQxMWEyZWYzZTUwNzk2MWZkMDU2ZTc5NTI3NCIsInRhZyI6IiJ9.png
+- 30074-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30074/50/eyJpdiI6ImdFTzJLK3VwcENrTVFEczZ6YTd0clE9PSIsInZhbHVlIjoieWVTOU5aYy8yV1ZIVDdqSWJqOU5tUT09IiwibWFjIjoiYjkyNjQ3ZThlNjE5ZmU1MzkzMWY0NTQ0YjhiZDQzYTU4YjI3MzE3MjY1MDk1MWFjOWJiYjhjNDA4NDNiMDJlYiIsInRhZyI6IiJ9.jpg
+
+### 30081-30083 Textures (multiple variants)
+- 30081-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30081/50/eyJpdiI6InFQVkFHZDR5cEJtbDNRM2FzVU1VYmc9PSIsInZhbHVlIjoiNDBIN0s1ampCT2FWdlJZSGtDQUlSZz09IiwibWFjIjoiYTY0NDcyMzJiYzFjYjM3ZTM2YTQ4MDg4ZDhmNWUzMDFhNmZiZTcxYjU0ODhlNzZmZjkwNjk0OTVmZTY0YzQyNiIsInRhZyI6IiJ9.png
+- 30082-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30082/50/eyJpdiI6InZjbGk3aEpudyt6ZFFiNGovTnRoOVE9PSIsInZhbHVlIjoiWW1aZzNBbERSWFFYaHk2SFY5UVV1dz09IiwibWFjIjoiOThhYzAzNWIxZTFmOWNlN2Y2YzRlZmIwNzQ2YTg3N2UxN2FiZWZhOGYwNzEzMDg1ZWVhYWViMGJhYTVhYmE0OCIsInRhZyI6IiJ9.png
+- 30083-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30083/50/eyJpdiI6IjhYdldPcjVndk84OUxubUZ2eVkxalE9PSIsInZhbHVlIjoiblR3LzRBaGEvN0s0dEVhMEY0Z1I1Zz09IiwibWFjIjoiYTE1ODViMzJkNjI5NjBjMDhlMjNmZGJiODVjMzNkODUwZTdjYzliZWNkYjAzYjUwMDgyMTdhNWM4NTdhZjhmYSIsInRhZyI6IiJ9.png
+
+### 30090-30094 Textures (multiple variants)
+- 30090-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30090/50/eyJpdiI6IlUxOGFRWStmTUNXbjlMVmhoVFN6WlE9PSIsInZhbHVlIjoicUFxTUxpZXpQdU9mcmM3V0Z4bmZzdz09IiwibWFjIjoiNWE0MWM3NjQxM2ZmNmEwMDU1ZmFlYjhjMDAyOTg0MWZhZDZjYWYzZmQ5ZmRkMDg5MWIyNWE4ZGJkYjIxNmM5MCIsInRhZyI6IiJ9.jpg
+- 30091-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30091/50/eyJpdiI6Ikw4dWxLZzJqV2VpSWE0aW0yYmFFT3c9PSIsInZhbHVlIjoic0NVM0NuN24wQ0NWN04xSHFTTVFQdz09IiwibWFjIjoiMmI1NjYyMDFhNzBmNWY5NWUyOWVlOTI5NDljZjQ3Mjc5YmQ1MTY4OTdiODQyZTA3NDdhYjQzNTcyMWMxNjI0ZiIsInRhZyI6IiJ9.jpg
+- 30092-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30092/50/eyJpdiI6IkpEcUkxSVVkdWhQMGhic1VRalZiQXc9PSIsInZhbHVlIjoiZW5FV25iSWdoNFNTaWYySGpGWTV5QT09IiwibWFjIjoiZjQyNjE3ZDVhZTQ1ZGI2N2NhMTY4M2QzNTE0OTAxYzY3ODNkNDdhYmFlMDkxZmU2NWUzN2U5Njg1M2FmNDc0NyIsInRhZyI6IiJ9.jpg
+- 30093-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30093/50/eyJpdiI6IlhGcSttMGE3NCtNNXBmOVBKUE1ZQmc9PSIsInZhbHVlIjoiQ2NzTkVjK0hsaHZIRjcwU2JlZm5wdz09IiwibWFjIjoiNTk3OTM2MDBmZDNhNTVkNDg3NzE4NjZjZGI1MDY1OWM1ZTgzMmE0OTI1OGUxMTUyZjc0MTdiZmNmZDhkZTNhOSIsInRhZyI6IiJ9.jpg
+- 30094-50px: https://simplio3d.nyc3.digitaloceanspaces.com/production/textures/30094/50/eyJpdiI6ImtDSWVCTHpvNjljWVU2R0FOMFJkM1E9PSIsInZhbHVlIjoiclRCVWZlajBLMFJOdlVuSFdxVi93dz09IiwibWFjIjoiM2UyOTUzMDIxNzIwZmQ4OTZiZTg5YWU3OWI2YjQwYzZjMTQ5YjM4NzllMGRiNmFmYjJjMDljMjkyMjUyMThiYyIsInRhZyI6IiJ9.png
+
+---
+
+## Using textures in ChairConfigurator
+
+The textures are referenced in [components/ChairConfigurator.tsx](../components/ChairConfigurator.tsx).
+
+To integrate downloaded textures, update the `TEXTURE_OPTIONS` array in the component:
+
+```typescript
+const TEXTURE_OPTIONS = [
+  { key: 'fabric', label: 'Fabric', image: '/assets/textures/texture_fabric.png' },
+  { key: 'leather', label: 'Leather', image: '/assets/textures/texture_leather.png' },
+  { key: 'carbon', label: 'Carbon', image: '/assets/textures/texture_carbon.png' },
+];
+```
+
+Then load textures from files instead of generating procedurally:
+
+```typescript
+async function loadTextureFromFile(path: string) {
+  const textureLoader = new THREE.TextureLoader();
+  return textureLoader.load(path);
+}
+```
+
+---
+
+## Total Extracted URLs
+
+**Total: 78 unique texture URLs** covering 25 texture IDs with multiple resolution variants (50px thumbnails and original high-res versions).
