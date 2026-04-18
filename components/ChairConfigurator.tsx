@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { PartKey, PartSettings } from './configurator/data';
 import { ConfiguratorPanel } from './configurator/ConfiguratorPanel';
 import { ConfiguratorViewer } from './configurator/ConfiguratorViewer';
@@ -16,6 +16,33 @@ export default function ChairConfigurator() {
     wheels: { color: '#1a1a1a' },
   });
   const [meshNames, setMeshNames] = useState<string[]>([]);
+  const [autoAR, setAutoAR] = useState(false);
+
+  useEffect(() => {
+    // Parse URL params for AR sharing
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('ar') === '1') {
+      const newSettings = { ...settings };
+      let changed = false;
+      
+      // Keys are in format part_c for color and part_t for texture
+      const parts: PartKey[] = ['frame', 'seat', 'pillows', 'stitches', 'armrest', 'wheels'];
+      parts.forEach(p => {
+        const c = params.get(`${p}_c`);
+        const t = params.get(`${p}_t`);
+        if (c || t) {
+          changed = true;
+          newSettings[p] = {
+            color: c || newSettings[p].color,
+            textureKey: t || undefined
+          };
+        }
+      });
+
+      if (changed) setSettings(newSettings);
+      setAutoAR(true);
+    }
+  }, []);
 
   const setColor = useCallback((color: string) => {
     setSettings((current) => ({
@@ -52,6 +79,7 @@ export default function ChairConfigurator() {
         selectedPart={selectedPart}
         settings={settings}
         setMeshNames={setMeshNames} 
+        autoLaunchAR={autoAR}
       />
     </div>
   );

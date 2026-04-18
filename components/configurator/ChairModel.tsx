@@ -1,14 +1,14 @@
 import { useGLTF } from '@react-three/drei';
 import { useThree } from '@react-three/fiber';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, forwardRef } from 'react';
 import * as THREE from 'three';
 import { PartKey, PartSettings } from './data';
 import { loadPBRAsync, animateMaterialTransition, matchPartKey } from './materialUtils';
 
-export function ChairModel({ settings, onMeshNamesReady }: {
+export const ChairModel = forwardRef<THREE.Group, {
   settings: Record<PartKey, PartSettings>;
   onMeshNamesReady?: (names: string[]) => void;
-}) {
+}>(({ settings, onMeshNamesReady }, ref) => {
   const { scene } = useGLTF('/assets/3dModels/model1/Chair.glb');
   const { gl } = useThree();
   const hasReported = useRef(false);
@@ -154,10 +154,12 @@ export function ChairModel({ settings, onMeshNamesReady }: {
   if (!offset) return null;
 
   return (
-    <primitive
-      object={scene}
-      position={[offset.x, offset.y, offset.z]}
-      rotation={[0, 0, 0]}
-    />
+    <group ref={ref}>
+      <primitive
+        object={scene}
+        position={[offset.x, offset.y, offset.z]}
+        rotation={[0, 0, 0]}
+      />
+    </group>
   );
-}
+});
