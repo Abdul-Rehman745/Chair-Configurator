@@ -88,7 +88,7 @@ export function ConfiguratorPanel({
         <h2>Material</h2>
         {selectedPartDef.allowTexture ? (
           <div className="texture-grid">
-            {TEXTURE_OPTIONS.map((texture) => (
+            {TEXTURE_OPTIONS.filter((texture) => !texture.allowedParts || texture.allowedParts.includes(selectedPart)).map((texture) => (
               <button
                 key={texture.key}
                 className={`texture-card ${

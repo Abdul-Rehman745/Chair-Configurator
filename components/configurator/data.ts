@@ -43,12 +43,19 @@ export const COLORS = [
   { hex: '#6c5ce7', label: 'Purple' },
 ];
 
-export const TEXTURE_OPTIONS = [
+export const TEXTURE_OPTIONS: Array<{
+  key: string;
+  label: string;
+  preview: string;
+  maps: { color: string; normal: string; roughness: string } | null;
+  allowedParts?: PartKey[];
+}> = [
   {
     key: 'plain',
     label: 'Plain / Solid',
     preview: '',
     maps: null,
+    // No allowedParts specified = Available for ALL parts that allow textures
   },
   {
     key: 'fabric',
@@ -59,6 +66,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Fabric010_1K-JPG/Fabric010_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Fabric010_1K-JPG/Fabric010_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['seat', 'pillows'], // Only show for seat and pillows
   },
   {
     key: 'fabric-015',
@@ -69,6 +77,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Fabric015_1K-JPG/Fabric015_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Fabric015_1K-JPG/Fabric015_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['seat', 'pillows'], // Knit for seat and pillows
   },
   {
     key: 'fabric-062',
@@ -79,6 +88,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Fabric062_1K-JPG/Fabric062_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Fabric062_1K-JPG/Fabric062_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['seat'], // Denim only for seat
   },
   {
     key: 'leather-003',
@@ -89,6 +99,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Leather003_1K-JPG/Leather003_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Leather003_1K-JPG/Leather003_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['seat', 'armrest'], // Classic leather
   },
   {
     key: 'leather-025',
@@ -99,6 +110,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Leather025_1K-JPG/Leather025_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Leather025_1K-JPG/Leather025_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['pillows'], // Grained leather only for pillows
   },
   {
     key: 'leather-033a',
@@ -109,6 +121,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Leather033A_1K-JPG/Leather033A_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Leather033A_1K-JPG/Leather033A_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['armrest'], // Only show for armrest
   },
   {
     key: 'leather-033c',
@@ -119,6 +132,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Leather033C_1K-JPG/Leather033C_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Leather033C_1K-JPG/Leather033C_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['armrest', 'pillows'], // Brown leather
   },
   {
     key: 'leather-037',
@@ -129,6 +143,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Leather037_1K-JPG/Leather037_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Leather037_1K-JPG/Leather037_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['seat', 'pillows'], // Red leather
   },
   {
     key: 'leather-038',
@@ -139,6 +154,7 @@ export const TEXTURE_OPTIONS = [
       normal: '/assets/Textures/Leather038_1K-JPG/Leather038_1K-JPG_NormalGL.jpg',
       roughness: '/assets/Textures/Leather038_1K-JPG/Leather038_1K-JPG_Roughness.jpg',
     },
+    allowedParts: ['seat'], // Rugged leather
   },
 ];
 
